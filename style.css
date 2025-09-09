@@ -1,0 +1,13 @@
+div {
+    width: 30vw;
+    height: 70vh;
+    padding: 50px;
+    border-radius: 25px;
+    margin: 20px auto;
+    background-color: #060c15;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
