@@ -1,13 +1,16 @@
+body {
+    margin: 0 auto;
+    background-color: #A8B4BF;
+    color: white;
+    font: 1.3em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 div {
     width: 30vw;
     height: 70vh;
     padding: 50px;
-    border-radius: 25px;
-    margin: 20px auto;
-    background-color: #060c15;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-body {
-    margin: 0 auto;
+    border-radius: 8px;
+    margin: 50px auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    background-color: #060c15;    
 }

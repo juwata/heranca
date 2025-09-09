@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        ::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+            
+
+        body {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            font: 1.5em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        a, a:link {
+            text-decoration: none;
+            color: black;
+        }
+
+        div {
+            width: 50vw;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 500ms;
+        }
+
+        div#d01 {
+            background-color: lightblue;
+        }
+
+        div#d02 {
+            background-color: lightcoral;
+        }
+        
+        div#d03 {
+            background-color: lightgoldenrodyellow;
+        }
+
+        div#d04 {
+            background-color: lightgreen;
+        }
+
+        div:hover {
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <a href="ex01.html"><div id="d01">Exemplo 01</div></a>
+    <a href="ex02.html"><div id="d02">Exemplo 02</div></a>
+    <a href="ex03.html"><div id="d03">Exemplo 03</div></a>
+    <a href="ex04.html"><div id="d04">Exemplo 04</div></a>
+</body>
+</html>
