@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando o inherit</title>
+</head>
+<style>
+    .pai {
+    border: 3px solid green;
+    padding: 10px;
+    }
+    p {
+    border: 1px solid red;
+    }
+    .inherit {
+    border: inherit; 
+    }
+</style>
+<body>
+    <div class="pai">
+        <p>Parágrafo sem inherit</p>
+        <p class="inherit">Parágrafo com inherit</p>
+    </div>
+</body>
+</html>

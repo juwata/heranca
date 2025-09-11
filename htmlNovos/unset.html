@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando o unset</title>
+</head>
+<style>
+    .pai {
+        color: red;
+        border: 3px solid green;
+        padding: 10px;
+    }
+    .primeiro {
+        color: unset;
+        border: initial;
+    }
+    .segundo {
+        border: unset; 
+        color: initial;
+    }
+</style>
+<body>
+    <div class="pai">
+        <p class="primeiro">Parágrafo com unset na cor</p>
+        <p class="segundo">Parágrafo com unset na borda</p>
+    </div>
+</body>
+</html>
