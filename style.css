@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    background-color: #A8B4BF;
+    background-color: #060c15;
     color: white;
     font: 1.3em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -12,5 +12,10 @@ div {
     border-radius: 8px;
     margin: 50px auto;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-    background-color: #060c15;    
+    background-color: #A8B4BF;
+}
+
+p.comInherit, p.semInherit {
+    padding: 10px;
+    border-radius: 5px;
 }

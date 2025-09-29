@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Propriedades com inherit</title>
+</head>
+
+<style>
+    div {
+        border: 5px solid #EF2E97; 
+    }
+
+    p.semInherit {
+        border: 3px solid #2eefdc;
+    }
+
+    p.comInherit {
+        border: inherit; 
+    }
+</style>
+
+<body>
+    <div>
+        <p class="semInherit">Parágrafo sem inherit</p>
+        <p class="comInherit">Parágrafo com inherit</p>
+    </div>
+</body>
+</html>
